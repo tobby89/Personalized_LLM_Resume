@@ -18,7 +18,7 @@
       };
     
       return (
-        <form onSubmit={handleSubmit} className="flex gap-2 mt-15 p-5 bg-white"> {/* Changed p-20 to p-5 */}
+        <form onSubmit={handleSubmit} className="flex gap-2 mt-15 py-5 bg-white"> {/* Changed p-5 to py-5 */}
           <input
             type="text"
             value={input}
